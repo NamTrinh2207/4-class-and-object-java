@@ -17,7 +17,7 @@ public class Main {
         if (delta > 0) {
             System.out.println("Phương trình có 2 nghiệm phân biệt :");
             System.out.println("x1 = " + quadraticEquation.getRoot1());
-            System.out.println("x2 = " + quadraticEquation.getRoot1());
+            System.out.println("x2 = " + quadraticEquation.getRoot2());
         } else if (delta == 0) {
             System.out.print("Phương trình có nghiệm kép x1 = x2 = ");
             System.out.print(quadraticEquation.getRoot());
